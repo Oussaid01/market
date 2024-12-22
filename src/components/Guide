@@ -1,0 +1,178 @@
+///////////////////////////////Guide///////////////////////////////
+
+
+***Style***
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(243, 243, 243);
+  overflow-x: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 40vh;
+  }
+
+  main{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .welcome{
+    text-transform: uppercase;
+    color: #5a87c2;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #5a87c2;
+  }
+.article{
+  background-color: white;
+  height: 35vh;
+  width: 90%;
+  border: 0.1em solid gray;
+  border-radius: 0.25rem;
+  margin: auto;
+  margin-top: 5%;
+  position: relative;
+  padding: 10px;
+  padding-top: 15px;
+  box-shadow: 1.5px 1.5px 1.5px lightgray;
+}
+div.article-name{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 65%;
+  transform: translateX(-27%);
+  color: #5a87c2;
+  font-weight: bold;
+}
+.article-picture{
+  position: relative;
+  border-right: 1px solid black;
+  margin-left: 5%;
+  margin-top: 1.5%;
+  background-color: red;
+
+}
+.article-img{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 2.5%;
+  top: 5.5%;
+  z-index: 100;
+  box-shadow: 1.5px 1.5px 1.5px lightgray;
+}
+.article-stock{
+  position: absolute;
+  top: 6%;
+  z-index: 101;
+  background-color: yellow;
+  padding: 10px;
+  color: black;
+  right: 80%;
+  text-align: center;
+  font-weight: bold;
+}
+.article-description{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%,-40%);
+}
+.green{
+  background-color: green;
+}
+.red{
+  background-color: red;
+  color: black;
+}
+.solde{
+  background-color: orange;
+  color: black;
+  padding: 10px;
+  padding-right: 35px;
+  padding-left: 35px;
+  position: absolute;
+  top: 5%;
+  left: 8%;
+  z-index: 101;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+.article-state{
+  color: whitesmoke;
+  text-align: center;
+  position: absolute;
+  right: 2.5%;
+  top: 60%;
+  padding: 5px;
+}
+.buy-button{
+  text-align: center;
+  position: absolute;
+  right: 3%;
+  top: 75%;
+  padding: 5px;  
+  background-color: lightgray;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.buy-button:hover{
+  transform: translateY(5%);
+  border-bottom: 1px solid black;
+}
+.article-price{
+  position: absolute;
+  top: 40%;
+  right: 2.5%;
+  color: #ff0f03;
+  font-weight: bold;
+}
+
+
+***Phrases***
+
+
+Produt (pc):
+
+    "Pc portable Dell Gaming G15 5535 / Ryzen 5 7640HS / 8 Go / 1 To SSD RTX 3050 6G / Windows 11",
+    "./img/pc.jpg",
+    "10",
+    "En Stock",
+    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam necessitatibus quia fuga rem mollitia? Non error, quasi placeat alias amet aspernatur cum veniam molestiae perferendis excepturi fuga expedita. Possimus, officia.",
+    "2 689,000 DT"
+
+Product (clavier):
+       "Clavier de jeu mécanique Redragon LAKSHMI K606-OG-BK / RED SWITCH",
+        "./img/clavier.jpg",
+         "0",
+        "En Stock",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam necessitatibus quia fuga rem mollitia? Non error, quasi placeat alias amet aspernatur cum veniam molestiae perferendis excepturi fuga expedita. Possimus, officia.",
+       "89,000 DT"
+
+
+Product (Souris):
+
+       "Souris Gaming White Shark GM-5013 / 12 800 DPI / Rose",
+        "./img/souris.jpg",
+        "1",
+        "En Stock",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam necessitatibus quia fuga rem mollitia? Non error, quasi placeat alias amet aspernatur cum veniam molestiae perferendis excepturi fuga expedita. Possimus, officia.",
+       "49,000 DT"
+
+
+
+
+///////////////////////////////Guide///////////////////////////////
